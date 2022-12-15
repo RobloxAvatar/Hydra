@@ -1,3 +1,7 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
@@ -62,6 +66,15 @@ end
 local localPlr = game:GetService("Players").LocalPlayer
 local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxAvatar/Hydra/main/Engine.lua"))()
 
+repeat task.wait() until localPlr.Character ~= nil and localPlr.Character:FindFirstChild("HumanoidRootPart")
+
+if not localPlr.Character:FindFirstChild("entered") and localPlr.Character:FindFirstChild("HumanoidRootPart") then
+    repeat wait(0.5)
+        firetouchinterest(localPlr.Character.HumanoidRootPart, workspace.Lobby.Teleport1, 0)
+        firetouchinterest(localPlr.Character.HumanoidRootPart, workspace.Lobby.Teleport1, 1)
+    until localPlr.Character:FindFirstChild("entered") ~= nil
+end
+
 _G.ServerHop = true
 
 for _,v in pairs(workspace.Arena:GetDescendants()) do
@@ -70,9 +83,6 @@ for _,v in pairs(workspace.Arena:GetDescendants()) do
         firetouchinterest(localPlr.Character.HumanoidRootPart, v.Glove, 1)
         
         wait(0.05)
-    else
-        engine.MakeNotification("Join A Different Server!", 5)
-        break
     end
 end
 
