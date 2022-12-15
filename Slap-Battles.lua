@@ -71,8 +71,13 @@ for _,v in pairs(workspace.Arena:GetDescendants()) do
         
         wait(0.05)
     else
-        if _G.ServerHop == true then engine.MakeNotification("Joining A Different Server", 5) wait(5) Teleport() break end
         engine.MakeNotification("Join A Different Server!", 5)
         break
     end
+end
+
+if _G.ServerHop == true then
+    engine.MakeNotification("Joining A Different Server!", 3)
+    wait(3)
+    Teleport()
 end
