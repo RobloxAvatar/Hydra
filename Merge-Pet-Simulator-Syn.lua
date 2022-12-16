@@ -43,15 +43,13 @@ function script()
                     end
                 end
             end
-        end
-    end
-
-    while wait() do
-        if getgenv().AutoMerge then
-            for i,v in pairs(workspace.Plots[game.Players.LocalPlayer.Name .. "_Plot"]:GetChildren()) do
-                if tonumber(v.Name) ~= nil then
-                    if v:FindFirstChild("ID") then
-                        game:GetService("ReplicatedStorage").Remotes.merge_pet:FireServer(v:FindFirstChild("ID").Value, v:FindFirstChild("ID").Value)
+        else
+            if getgenv().AutoMerge then
+                for i,v in pairs(workspace.Plots[game.Players.LocalPlayer.Name .. "_Plot"]:GetChildren()) do
+                    if tonumber(v.Name) ~= nil then
+                        if v:FindFirstChild("ID") then
+                            game:GetService("ReplicatedStorage").Remotes.merge_pet:FireServer(v:FindFirstChild("ID").Value, v:FindFirstChild("ID").Value)
+                        end
                     end
                 end
             end
