@@ -1,7 +1,7 @@
 --//Changelogs
 --[[
     Updated On 21/12/22
-    Daycareboard function fixed!
+    Daycareboard function fixed
 ]]
 
 local ui_options = {
@@ -2027,7 +2027,7 @@ function getDayCareWhiteBoard()
     for i,v in next, workspace:GetChildren() do
         if v.Name == "Whiteboard" then
             if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Main.Position).magnitude < dist then
-                if v.Main.CFrame == CFrame.new(300.733704, 7.59686041, 195.613556, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
+                if v.Main.CFrame == CFrame.new(-300.733704, 7.59686041, 195.613556, 1, 0, 0, 0, 1, 0, 0, 0, 1) then
                     return v
                 end
             end
