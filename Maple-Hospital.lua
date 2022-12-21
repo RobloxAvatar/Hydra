@@ -1,7 +1,7 @@
 --//Changelogs
 --[[
     Updated On 21/12/22
-    Daycareboard function fixed
+    Daycareboard function fixed!
 ]]
 
 local ui_options = {
@@ -2041,88 +2041,6 @@ function hacked()
         print(timer)
         if timer == 119 then
             local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            local ohString1 = "this bord has been hacked by: anonymous!"
-            local ohInstance2 = getDayCareWhiteBoard()
-            game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
-            wait(1)
-            local ohString1 = "𝖙𝖍𝖎𝖘 𝖇𝖔𝖗𝖉 𝖍𝖆𝖘 𝖇𝖊𝖊𝖓 𝖍𝖆𝖈𝖐𝖊𝖉 𝖇𝖞: 𝖆𝖓𝖔𝖓𝖞𝖒𝖔𝖚𝖘!"
             local ohInstance2 = getDayCareWhiteBoard()
             game:GetService("ReplicatedStorage").Whiteboard:FireServer(ohString1, ohInstance2)
             wait(1)
